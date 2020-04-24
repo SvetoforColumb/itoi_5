@@ -46,4 +46,4 @@ for j in range(2, 32):
 #%%
 wb.save(filename='1.xlsx')
 
-
+#  pyinstaller -F main.py
