@@ -22,12 +22,12 @@ sheet = wb['1']
 x_red_1 = str(sheet['W6'].value)
 x_red_2 = str(sheet['W7'].value)
 x_red_3 = str(sheet['W8'].value)
-x_blue_1 = str(sheet['X6'].value)
-x_blue_2 = str(sheet['X7'].value)
-x_blue_3 = str(sheet['X8'].value)
-x_green_1 = str(sheet['Y6'].value)
-x_green_2 = str(sheet['Y7'].value)
-x_green_3 = str(sheet['Y8'].value)
+x_green_1 = str(sheet['X6'].value)
+x_green_2 = str(sheet['X7'].value)
+x_green_3 = str(sheet['X8'].value)
+x_blue_1 = str(sheet['Y6'].value)
+x_blue_2 = str(sheet['Y7'].value)
+x_blue_3 = str(sheet['Y8'].value)
 #%%
 for j in range(2, 32):
     print('cell' + str(j))
